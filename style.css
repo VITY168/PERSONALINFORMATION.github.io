@@ -1,0 +1,38 @@
+p,h1{
+    font-size: 28px;
+
+}
+body{
+    margin: 0;
+    font-family: "Koulen", sans-serif;
+}
+h1,h2,h3,p,ul{
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+}
+div{
+    box-sizing: border-box;
+}
+.menu-bar{
+    width: 100%;
+    float: left;
+    background-color: rgb(53, 53, 53);
+}
+.menu{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+.menu ul li{
+    float: left;
+}
+.menu ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 18px;
+    color: white;
+}
+.menu ul li a:hover{
+    color: rgb(164, 47, 47);
+}
